@@ -1,0 +1,12 @@
+name,description,color
+status:unread,Not started,d73a4a
+status:reading,Actively reading,1d76db
+status:read,Finished reading,0e8a16
+status:implemented,Code prototyped,5319e7
+prio:P0,Critical priority,ff3300
+prio:P1,High priority,ff8800
+prio:P2,Medium priority,ffdd00
+prio:P3,Low priority,cccccc
+type:paper,Peer-reviewed article,0052cc
+type:blog,Technical blog post,fbca04
+type:thesis,Master/PhD thesis,bfdadc
