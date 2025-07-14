@@ -1,0 +1,22 @@
+name: Paper
+description: Track reading / implementation of one publication
+title: "[PAPER] <title>"
+labels: ["type:paper", "status:unread", "prio:P2"]
+body:
+  - type: input
+    id: link
+    attributes: {label: Link, description: "DOI / arXiv / blog URL"}
+  - type: textarea
+    id: tl;dr
+    attributes: {label: TL;DR (1-3 lines)}
+  - type: textarea
+    id: why
+    attributes: {label: Why it matters to my work}
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: ["P0—Critical", "P1—High", "P2—Medium", "P3—Low"]
+  - type: date
+    id: deadline
+    attributes: {label: Self-imposed deadline (optional)}
